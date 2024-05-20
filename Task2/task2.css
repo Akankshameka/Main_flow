@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+    color: white;
+}
+#head{
+    margin-top:15%;
+    margin-left: 15%;
+    font-size: 20px;
+}
+h3{
+    font-size: 30px;
+    font-style: italic;
+    font-family: bold;
+}
+h2{
+    color:rgb(22, 138, 184);
+}
+.container{
+    padding: 20px;
+    font-size: 20px;   
+}
+.bio{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-left:47%;
+    margin-top: -18%;
+}
+#About{
+    width:65%;
+    margin-left:15%;
+    margin-top: 10%;
+    font-size: 20px;
+}
+#six{
+    margin-top: 15%;
+    margin-left: 10%;
+}
+#form{
+    background-color: #e0e0ee;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+input{
+    width:40%;
+    height: 8%;
+    padding: 8px;
+    margin-left: 5%;
+    margin-top: 3%;
+    border-radius: 10px;
+}
+textarea{
+    width:85%;
+    height:30%;
+    padding: 10px;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+}
+#form button{
+    background-color: #08082c;
+    color: white;
+    margin-bottom: 5%;
+    padding:10px;
+    border-radius: 20px;
+    width: 13%;
+    border:solid 1px white;
+}
