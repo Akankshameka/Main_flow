@@ -1,1 +1,80 @@
-
+<html>
+    <head>
+        <meta content="width=device-width ,initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="task3.css">
+        <script src="task3.js"></script>
+    </head>
+    <body>
+        <div id="head">
+            <h1>Dashboard</h1>
+        </div>
+    <div id="menu">
+        <label>
+            <input type="checkbox" id="input">
+            <div class="toggle">
+                <span class="top common"></span>
+                <span class="middle common"></span>
+                <span class="bottom common"></span>
+            </div>
+            <div class="slide">
+                <ul>
+                    <li><a href="#home"><i class="fa fa-home"></i>Home</a></li>
+                    <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+                    <li><a href="#register"><i class="fa fa-pen"></i>Register</a></li>
+                    <li><a href="#contact"><i class="fa fa-phone"></i>Contact Us</a></li>
+                    <li><a href="#"><i class="fa fa-fire"></i>Trending</a></li>
+                    <li><a href="#"><i class="fa fa-trophy"></i>Achievements</a></li>
+                    <li><a href="#"><i class="fa fa-bars"></i>More</a></li>
+                </ul>
+            </div>
+        </label>
+    </div>
+    <div id="home">
+        <h3>This is the Simple WebPage Of My Internship on <h2>FullStack Web Development</h2> from <h4>Main Flow Services and Technologies</h4></h3>
+    </div>
+    <div id="about">
+        <h2>I am Akanksha Meka</h2>
+        <h3>Web Developer</h3>
+        <h4>Python Developer</h4>
+        <p>I am very enthusiastic to learn new things.. And looking for challenging position in a reputed company</p>
+    </div>
+    <div id="register">
+        <form onsubmit="return valid()" action="#home">
+            <div id="left">
+                <label>firstname:</label><br>
+                <input type="text" id="firstname"/><i class="fa fa-user"></i><br><br>
+                <label>lastname:</label><br>
+                <input type="text" id="lastname"/><br>
+                <label>MobileNo:</label><br>
+                <input type="text" id="mobileno"/><i class="fa fa-phone"></i><br>
+                <label>Email:</label><br>
+                <input type="text" id="email"/><i class="fa fa-envelope"></i><br>
+                <label>PassWord:</label><br>
+                <input type="password" id="pass"/><i class="fa fa-lock"></i><br>
+                <label>Confirm Password:</label><br>
+                <input type="password" id="pass2"/><br>
+                <div id="left1">
+                    <input type="submit" value="submit" id="sub">
+                    <input type="reset" value="reset" id="reset">
+                </div>
+            </div>
+            </form>
+    </div>
+    <div id="contact">
+        <div id="form">
+            <form>
+                <input type="text" placeholder="First Name" id="first">
+                <input type="text" placeholder="Last Name" id="last"><br/>
+                <input type="text" placeholder="Mobile Number" id="mobile">
+                <input type="email" placeholder="Email" id="email"><br/>
+                <textarea placeholder="Your Message.." id="textarea"></textarea>
+                <center><button id="button">Send Message..</button></center>
+            </form>
+        </div>
+    </div>
+    </body>
+</html>
